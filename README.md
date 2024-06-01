@@ -1,2 +1,2 @@
 # Banking-Pay
-Banking Pay is an online banking system app
+Moxsh is an online banking system app
