@@ -1,5 +1,5 @@
 {
-  "name": "Moxsh",
+  "name": "repo",
   "private": true,
   "scripts": {
     "build": "turbo build",
