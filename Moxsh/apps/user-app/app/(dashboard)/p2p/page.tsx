@@ -1,15 +1,14 @@
 import { SendCard } from "../../../components/SendCard";
 
-
-export default async function home(){
-return(
+export default async function Home() {
+  return (
     <>
-    <div>
-        P2p
-        <div className="w-full  border border-slate-400">
-        <SendCard/>
+      <div className="relative items-center min-h-screen">
+        P2P
+        <div className="mt-10 w-full relative left-1/2  border border-slate-400">
+          <SendCard />
         </div>
-    </div>
+      </div>
     </>
-)
+  );
 }
