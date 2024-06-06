@@ -1,0 +1,13 @@
+{
+  "name": "moxsh",
+  "version": "1.0.0",
+  "description": "Moxsh is an online banking system app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-user-app": "cd ./apps/user-app && npm run start && cd ../"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
