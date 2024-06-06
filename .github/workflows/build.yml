@@ -17,7 +17,9 @@ jobs:
       
       - name: Install Dependencies
         run: cd Moxsh && npm install && cd ../
-
+      
+      - name: Generate Prisma Client 
+        run: cd Moxsh/packages/db && npx prisma generate && cd ../../../
       
         
       - name: Run Build
