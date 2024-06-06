@@ -21,7 +21,7 @@ jobs:
         run: cd Moxsh && npm install && cd ../
       
       - name: Generate Prisma Client 
-        run: cd Moxsh/packages/db &&  npx prisma generate && cd ../../../
+        run: cd Moxsh/packages/db &&  npx prisma migrate deploy --name moxsh --schema prisma/schema.prisma  &&  npx prisma generate && cd ../../../
         
       - name: Run Build
         run: cd Moxsh && npm run build && cd ../
